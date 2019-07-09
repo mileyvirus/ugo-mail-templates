@@ -1,0 +1,36 @@
+
+    <mj-section border-radius="16px 16px 0 0" background-color="#1b1b1b" padding-bottom="0">
+
+      <mj-column>
+        <mj-table>
+                  <tr>
+            <td style="padding: 0 10px;">Posto Unico - Ridotto online</td>
+            <td align="right" style="padding: 0 0 0 10px; color: rgba(255,255,255,0.70);">10,00€ + 1€ DDP</td>
+          </tr>
+          <tr>
+            <td style="padding: 0 10px;">Posto Unico - Intero</td>
+            <td align="right" style="padding: 0 0 0 10px; color: rgba(255,255,255,0.70);">12,00€</td>
+          </tr>
+          <tr>
+            <td style="padding: 0 10px; color: rgba(255,255,255,0.70);">Costi di servizio</td>
+            <td align="right" style="padding: 0 0 0 10px; color: rgba(255,255,255,0.70);">0,22€</td>
+          </tr>
+          <tr>
+            <td style="padding: 0 10px; color: rgba(255,255,255,0.70);">IVA</td>
+            <td align="right" style="padding: 0 0 0 10px; color: rgba(255,255,255,0.70);">0,11€</td>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+
+    <mj-section border-radius="0 0 16px 16px" background-color="#1b1b1b" padding-top="0">
+          <mj-group>
+      <mj-column vertical-align="middle" width="80%">
+
+      </mj-column>
+        <mj-column width="20%" vertical-align="bottom">
+          <mj-text align="right" mj-class="supertitle">Totale</mj-text>
+          <mj-text align="right"  mj-class="title">23€</mj-text>
+        </mj-column>
+        </mj-group>
+    </mj-section>

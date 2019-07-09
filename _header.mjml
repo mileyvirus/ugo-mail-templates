@@ -1,0 +1,7 @@
+	<!-- Header -->
+  <mj-section>
+    <mj-column>
+      <mj-image width="128px" src="https://marketing-image-production.s3.amazonaws.com/uploads/d8dbb0961344291de48c08fcd0b4457b5157f1b38c99f257efea3d3f4a411bf649f3fabe68d2ee84a3e684f034b463f362d1fb4f3843a4b2c688bccbc4185ecb.png"></mj-image>
+      <mj-text mj-class="supertitle" align="center">UGO</mj-text>
+    </mj-column>
+  </mj-section>

@@ -1,0 +1,83 @@
+<mjml>
+
+  <mj-head>
+    <mj-attributes>
+      <mj-class name="supertitle" font-size="15px" color="rgba(255,255,255,0.70)" text-transform="uppercase" letter-spacing="-0.24px" line-height="15px" align="left" />
+      <mj-class name="title" font-size="28px" color="#FFFFFF" letter-spacing="0.36px" line-height="34px" font-weight="bold" padding-top="0" align="left" />
+      <mj-all color="#fff" font-family="system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" />
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body background-color="#000">
+
+    <mj-include path="_header.mjml" />
+
+    <mj-section>
+      <mj-column>
+        <mj-text align="center" mj-class="supertitle">Ciao Guido! 👋</mj-text>
+        <mj-text align="center" mj-class="title">Ecco i dettagli del tuo ordine</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Hero Image -->
+    <mj-section>
+      <mj-column>
+        <mj-image fluid-on-mobile="true" src="https://marketing-image-production.s3.amazonaws.com/uploads/039689c896a8f157a14437b15169c0270454f870b6d62cfc7acafbbae0d5adb868a0dfffc5d6b8095aabb75f5c3036e59cfd0855cc004c4b75dd3d4fe21811c6.png" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-group>
+        <mj-column>
+          <mj-table width="auto">
+            <tr style="text-align:right;padding:15px 0;">
+              <th style=""><img width="28px" src="https://marketing-image-production.s3.amazonaws.com/uploads/92a1f517760db502d2e5ebff8e223361f250902e39beb474a5a822e2d339d594bee0e0bb185ffaf39a01b65d8b7042d14cdf8023c6af94a81fa11d678db95ea3.png"></th>
+              <th style="font-size: 22px; color: #FFFFFF; letter-spacing: 0.34px; line-height: 26px;padding: 0 0 0 16px;">Biglietti</th>
+            </tr>
+          </mj-table>
+        </mj-column>
+        <mj-column>
+          <mj-button height="30px" align="right" background-color="transparent" padding="0 0 0 0" color="#00ff8f" href="https://ugo.community/receipts/cb362c3f-2d84-4ba4-b355-167c21a2e699">Stampa ricevuta</mj-button>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+
+    <mj-include path="_receipt-style-1.mjml" />
+    <mj-spacer height="48px" />
+    <!--
+    <mj-include path="_receipt-style-2.mjml" />
+    <mj-spacer height="48px" />
+    <mj-include path="_receipt-style-3.mjml" />
+    <mj-spacer height="48px" />-->
+    <mj-section>
+      <mj-column>
+        <mj-table width="auto">
+          <tr style="text-align:left;padding:15px 0;">
+            <th style=""><img width="28px" src="https://marketing-image-production.s3.amazonaws.com/uploads/1a713379cd2a6816221043ac44815c35856743f8b34e4ecff581c251e481928b957615386d541be499e3066a5365aafd101022cccc0e84559bc8561bf8124eb2.png"></th>
+            <th style="font-size: 22px; color: #FFFFFF; letter-spacing: 0.34px; line-height: 26px;padding: 0 0 0 16px;">Evento</th>
+          </tr>
+        </mj-table>
+      </mj-column>
+    </mj-section>
+
+    <mj-section padding="0" border-radius="16px" background-color="#1b1b1b">
+      <mj-column>
+        <mj-image fluid-on-mobile="true" padding="0" border-radius="16px" src="https://marketing-image-production.s3.amazonaws.com/uploads/cc96487cba3e66f066e9cd40f2753ad5080ae301665538e81ef5b2ab7a29e32c20706c15cb0ab470cf0a67876c87e2b5b6c745eb05ca4a6f857913a1a94e875d.png" />
+      </mj-column>
+
+      <mj-column vertical-align="middle">
+        <mj-text mj-class="supertitle">12/04/2019 • 22:00</mj-text>
+        <mj-text mj-class="title">Lecce Tattoo Fest 2019</mj-text>
+        <mj-text color="rgba(255,255,255,0.70)">
+          Lecce Tattoo Fest, Piazza Palio, 73100 Lecce LE, Italia
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-spacer height="48px" />
+
+    <mj-include path="_footer-transactional.mjml" />
+
+    <mj-spacer height="48px" />
+  </mj-body>
+</mjml>

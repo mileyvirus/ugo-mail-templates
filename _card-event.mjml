@@ -1,0 +1,10 @@
+<mj-section padding="0">
+    <mj-column padding="0">
+    	<mj-image padding="0" border-radius="16px" src="https://marketing-image-production.s3.amazonaws.com/uploads/cc96487cba3e66f066e9cd40f2753ad5080ae301665538e81ef5b2ab7a29e32c20706c15cb0ab470cf0a67876c87e2b5b6c745eb05ca4a6f857913a1a94e875d.png" />    
+    </mj-column>
+    
+    <mj-column background-color="#1b1b1b" border-radius="16px">
+    	<mj-text mj-class="supertitle">Supertitle</mj-text>
+    	<mj-text mj-class="title">Title</mj-text>
+    </mj-column>
+</mj-section>

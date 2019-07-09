@@ -1,0 +1,17 @@
+<mj-section border-radius="16px" background-color="#1b1b1b">
+  <mj-column>
+    <mj-text mj-class="supertitle">Hai domande?</mj-text>
+    <mj-button align="left" color="#fff" href="https://ugo.community/scrivi-a-ugo">Scrivi a UGO</mj-button>
+  </mj-column>
+
+  <mj-column>
+    <mj-text mj-class="supertitle">Seguici su</mj-text>
+    <mj-social font-size="15px" icon-size="30px" mode="horizontal" align="left">
+      <mj-social-element href="https://www.facebook.com/escoconugo/" src="https://marketing-image-production.s3.amazonaws.com/uploads/673e3671989ad62d4d70102bd5985c8f10af5fd0a6cb0b1aecbe36314df99cc7ad7ee13d24a808c137571f4da1312259aecada4bcf0808fdfaead1e1b7053b9f.png">
+      </mj-social-element>
+      <mj-social-element href="https://www.instagram.com/escoconugo/" src="https://marketing-image-production.s3.amazonaws.com/uploads/43b1da4be3f3a79adf20bd536c4a3adfe21756d9e9db33013eedbca38958869f5190f632e37f0ac6cb8e4bb010b7f039cda957845f6a499a3c1ec41fc6950caf.png">
+      </mj-social-element>
+    </mj-social>
+  </mj-column>
+
+</mj-section>

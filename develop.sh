@@ -1,0 +1,1 @@
+./node_modules/.bin/mjml -w /Users/yaserahmady/Desktop/Transactional/conferma-acquisto.mjml -o /Users/yaserahmady/Desktop/Transactional/conferma-acquisto.html

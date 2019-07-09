@@ -1,0 +1,22 @@
+<mj-section border-radius="16px" background-color="#1b1b1b">
+  <mj-column vertical-align="top" width="70%">
+    <mj-table>
+      <tr>
+        <td style="padding: 0 10px;">Posto Unico - Ridotto online</td>
+        <td align="right" style="padding: 0 0 0 10px; color: rgba(255,255,255,0.70);">10,00€ + 1€ DDP</td>
+      </tr>
+      <tr>
+        <td style="padding: 0 10px;">Posto Unico - Intero</td>
+        <td align="right" style="padding: 0 0 0 10px; color: rgba(255,255,255,0.70);">12,00€</td>
+      </tr>
+      <tr>
+        <td style="padding: 0 10px; color: rgba(255,255,255,0.70);">Costi di servizio</td>
+        <td align="right" style="padding: 0 0 0 10px; color: rgba(255,255,255,0.70);">0,22€</td>
+      </tr>
+    </mj-table>
+  </mj-column>
+  <mj-column width="30%" vertical-align="bottom">
+    <mj-text align="right" mj-class="supertitle">Totale</mj-text>
+    <mj-text align="right" mj-class="title">23,22€</mj-text>
+  </mj-column>
+</mj-section>
