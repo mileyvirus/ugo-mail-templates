@@ -14,7 +14,6 @@
 
     <mj-section>
       <mj-column>
-        <mj-text align="center" mj-class="supertitle">Ciao! 👋</mj-text>
         <mj-text align="center" mj-class="title">Accedi a UGO</mj-text>
       </mj-column>
     </mj-section>
@@ -22,7 +21,7 @@
     <!-- Hero Image -->
     <mj-section>
       <mj-column>
-        <mj-image fluid-on-mobile="true" src="https://marketing-image-production.s3.amazonaws.com/uploads/039689c896a8f157a14437b15169c0270454f870b6d62cfc7acafbbae0d5adb868a0dfffc5d6b8095aabb75f5c3036e59cfd0855cc004c4b75dd3d4fe21811c6.png" />
+        <mj-image fluid-on-mobile="true" src="https://files.ugo.srl/mails/creazione.60d3aa0e90f07d13feb0743cb658d21a.png" />
       </mj-column>
     </mj-section>
 
