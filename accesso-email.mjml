@@ -1,0 +1,47 @@
+<mjml>
+
+  <mj-head>
+    <mj-attributes>
+      <mj-class name="supertitle" font-size="15px" color="rgba(255,255,255,0.70)" text-transform="uppercase" letter-spacing="-0.24px" line-height="15px" align="left" />
+      <mj-class name="title" font-size="28px" color="#FFFFFF" letter-spacing="0.36px" line-height="34px" font-weight="bold" padding-top="0" align="left" />
+      <mj-all color="#fff" font-family="system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" />
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body background-color="#000">
+
+    <mj-include path="_header.mjml" />
+
+    <mj-section>
+      <mj-column>
+        <mj-text align="center" mj-class="supertitle">Ciao! 👋</mj-text>
+        <mj-text align="center" mj-class="title">Accedi a UGO</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <!-- Hero Image -->
+    <mj-section>
+      <mj-column>
+        <mj-image fluid-on-mobile="true" src="https://marketing-image-production.s3.amazonaws.com/uploads/039689c896a8f157a14437b15169c0270454f870b6d62cfc7acafbbae0d5adb868a0dfffc5d6b8095aabb75f5c3036e59cfd0855cc004c4b75dd3d4fe21811c6.png" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-text color="rgba(255,255,255,0.70)" font-size="15px">Utilizza questo codice per completare l'accesso:</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section border-radius="16px" background-color="#1b1b1b">
+      <mj-column>
+        <mj-text align="center" mj-class="title" padding-top="8px">12345678</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-spacer height="48px" />
+
+    <mj-include path="_footer-transactional.mjml" />
+
+    <mj-spacer height="48px" />
+  </mj-body>
+</mjml>
