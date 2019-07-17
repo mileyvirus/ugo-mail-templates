@@ -14,7 +14,7 @@
 
     <mj-section>
       <mj-column>
-        <mj-text align="center" mj-class="supertitle">Ciao Guido! 👋</mj-text>
+        <mj-text align="center" mj-class="supertitle">Ciao {{ user.firstName }}! 👋</mj-text>
         <mj-text align="center" mj-class="title">Ecco i dettagli del tuo ordine</mj-text>
       </mj-column>
     </mj-section>
@@ -28,7 +28,7 @@
 
     <mj-section>
       <mj-group>
-        <mj-column>
+        <mj-column width="60%">
           <mj-table width="auto">
             <tr style="text-align:right;padding:15px 0;">
               <th style=""><img width="28px" src="https://marketing-image-production.s3.amazonaws.com/uploads/92a1f517760db502d2e5ebff8e223361f250902e39beb474a5a822e2d339d594bee0e0bb185ffaf39a01b65d8b7042d14cdf8023c6af94a81fa11d678db95ea3.png"></th>
@@ -36,8 +36,8 @@
             </tr>
           </mj-table>
         </mj-column>
-        <mj-column>
-          <mj-button height="30px" align="right" background-color="transparent" padding="0 0 0 0" color="#00ff8f" href="https://ugo.community/receipts/cb362c3f-2d84-4ba4-b355-167c21a2e699">Stampa ricevuta</mj-button>
+        <mj-column width="40%">
+          <mj-button height="30px" align="right" background-color="transparent" padding="0 0 0 0" color="#00ff8f" href="{{ receiptURL }}">Stampa ricevuta</mj-button>
         </mj-column>
       </mj-group>
     </mj-section>
@@ -62,14 +62,14 @@
 
     <mj-section padding="0" border-radius="16px" background-color="#1b1b1b">
       <mj-column>
-        <mj-image fluid-on-mobile="true" padding="0" border-radius="16px" src="https://marketing-image-production.s3.amazonaws.com/uploads/cc96487cba3e66f066e9cd40f2753ad5080ae301665538e81ef5b2ab7a29e32c20706c15cb0ab470cf0a67876c87e2b5b6c745eb05ca4a6f857913a1a94e875d.png" />
+        <mj-image fluid-on-mobile="true" padding="0" border-radius="16px" src="{{ event.cover }}" />
       </mj-column>
 
       <mj-column vertical-align="middle">
-        <mj-text mj-class="supertitle">12/04/2019 • 22:00</mj-text>
-        <mj-text mj-class="title">Lecce Tattoo Fest 2019</mj-text>
+        <mj-text mj-class="supertitle">{{ event.startTime }}</mj-text>
+        <mj-text mj-class="title">{{ event.name }}</mj-text>
         <mj-text color="rgba(255,255,255,0.70)">
-          Lecce Tattoo Fest, Piazza Palio, 73100 Lecce LE, Italia
+          {{ event.address }}
         </mj-text>
       </mj-column>
     </mj-section>
