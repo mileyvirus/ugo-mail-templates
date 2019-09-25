@@ -1,0 +1,125 @@
+<mjml>
+
+  <mj-head>
+    <mj-font href="https://ugo.community/sharing/mail-assets/ugo-extended.css" name="UGO" />
+    <mj-attributes>
+      <mj-class name="text-body" font-size="26px" color="#00ff8f" align="center" font-weight="bold" />
+      <mj-class name="text-big" font-size="26px" color="#00ff8f" align="center" font-weight="bold" />
+      <mj-class name="text-outline" font-size="26px" color="#000" border="1px solid #00ff8f" align="center" font-weight="bold" />
+      <mj-class name="title" font-size="28px" color="#FFFFFF" letter-spacing="0.36px" line-height="34px" font-weight="bold" padding-top="0" align="left" />
+      <mj-all color="#fff" font-family="UGO, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" />
+    </mj-attributes>
+
+    <mj-style inline="inline">
+      .text-outline {
+        text-shadow: -1px -1px 0 #00ff8f, 1px -1px 0 #00ff8f, -1px 1px 0 #00ff8f, 1px 1px 0 #00ff8f;
+      }
+    </mj-style>
+
+  </mj-head>
+
+  <mj-body background-color="#000">
+
+    <!-- Hero Image -->
+    <mj-section>
+      <mj-column>
+        <mj-image fluid-on-mobile="true" src="https://ugo.community/sharing/mail-assets/nokia-header.png" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-button inner-padding="25px 100px" font-size="32px" font-weight="bold" background-color="#00ff8f" border-radius="36px" color="black">
+          RSVP
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-text mj-class="text-outline" css-class="text-outline">
+          Saturday 28th September
+        </mj-text>
+        <mj-text mj-class="text-big">
+          17:00 - 00:30
+        </mj-text>
+        <mj-text mj-class="text-outline" css-class="text-outline">
+          @20100 ntwrk Milano
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-divider border-width="3px" border-style="solid" border-color="#00ff8f" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-text mj-class="text-body">
+          It is our pleasure to invite you to our fourth birthday party.
+        </mj-text>
+        <mj-text mj-class="text-body">
+          We have come a long way in these four years and now we are here to celebrate a very important goal.
+        </mj-text>
+        <mj-text mj-class="text-body">
+          Have fun with us!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-divider border-width="3px" border-style="solid" border-color="#00ff8f" />
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-text mj-class="text-outline" css-class="text-outline">
+          ARTISTS
+        </mj-text>
+        <mj-text mj-class="text-body">
+          in alphabetical order:
+        </mj-text>
+        <mj-text mj-class="text-body">
+          Alessandro Borio<br>LOFT. (IT)
+        </mj-text>
+        <mj-text mj-class="text-body">
+          Daniele de Rubertis<br>Yay (IT)
+        </mj-text>
+        <mj-text mj-class="text-body">
+          DJ SENC (NL)
+        </mj-text>
+        <mj-text mj-class="text-body">
+          Izak jules (NL)
+        </mj-text>
+        <mj-text mj-class="text-body">
+          Julian Anthony<br>PIV (NL)
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text mj-class="text-outline" css-class="text-outline">
+          PROGRAM
+        </mj-text>
+        <mj-image fluid-on-mobile="true" src="https://ugo.community/sharing/mail-assets/compleanno-dashed-text-box.png" />
+        <mj-text mj-class="text-body">
+          Birthday party
+        </mj-text>
+        <mj-text mj-class="text-body">
+          18:30 — 00.30
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-button inner-padding="25px 100px" font-size="32px" font-weight="bold" background-color="#00ff8f" border-radius="36px" color="black">
+          RSVP
+        </mj-button>
+      </mj-column>
+    </mj-section>
+
+  </mj-body>
+</mjml>
