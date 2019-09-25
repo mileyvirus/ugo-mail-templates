@@ -1,13 +1,13 @@
 <mjml>
 
   <mj-head>
-    <mj-font href="https://ugo.community/sharing/mail-assets/ugo-extended.css" name="UGO" />
+    <mj-font href="https://ugo.community/sharing/mail-assets/ugo-extended-font.css" name="ugo-extended" />
     <mj-attributes>
       <mj-class name="text-body" font-size="26px" color="#00ff8f" align="center" font-weight="bold" />
       <mj-class name="text-big" font-size="26px" color="#00ff8f" align="center" font-weight="bold" />
       <mj-class name="text-outline" font-size="26px" color="#000" border="1px solid #00ff8f" align="center" font-weight="bold" />
       <mj-class name="title" font-size="28px" color="#FFFFFF" letter-spacing="0.36px" line-height="34px" font-weight="bold" padding-top="0" align="left" />
-      <mj-all color="#fff" font-family="UGO, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" />
+      <mj-all color="#fff" font-family="ugo-extended, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" />
     </mj-attributes>
 
     <mj-style inline="inline">
@@ -29,9 +29,12 @@
 
     <mj-section>
       <mj-column>
-        <mj-button inner-padding="25px 100px" font-size="32px" font-weight="bold" background-color="#00ff8f" border-radius="36px" color="black">
+        <mj-button inner-padding="25px 200px" font-size="32px" font-weight="bold" background-color="#00ff8f" border-radius="36px" color="black">
           RSVP
         </mj-button>
+        <mj-text mj-class="text-big">
+          THIS IS AN OFFICIAL INVITATION
+        </mj-text>
       </mj-column>
     </mj-section>
 
@@ -76,7 +79,7 @@
     </mj-section>
 
     <mj-section>
-      <mj-column>
+      <mj-column border-right="3px solid #00ff8f">
         <mj-text mj-class="text-outline" css-class="text-outline">
           ARTISTS
         </mj-text>
@@ -115,11 +118,21 @@
 
     <mj-section>
       <mj-column>
-        <mj-button inner-padding="25px 100px" font-size="32px" font-weight="bold" background-color="#00ff8f" border-radius="36px" color="black">
+        <mj-button inner-padding="25px 200px" font-size="32px" font-weight="bold" background-color="#00ff8f" border-radius="36px" color="black">
           RSVP
         </mj-button>
       </mj-column>
     </mj-section>
 
+    <mj-section>
+      <mj-column>
+        <mj-social font-size="15px" icon-size="30px" mode="horizontal" align="center">
+          <mj-social-element href="https://www.facebook.com/escoconugo/" src="https://marketing-image-production.s3.amazonaws.com/uploads/673e3671989ad62d4d70102bd5985c8f10af5fd0a6cb0b1aecbe36314df99cc7ad7ee13d24a808c137571f4da1312259aecada4bcf0808fdfaead1e1b7053b9f.png">
+          </mj-social-element>
+          <mj-social-element href="https://www.instagram.com/escoconugo/" src="https://marketing-image-production.s3.amazonaws.com/uploads/43b1da4be3f3a79adf20bd536c4a3adfe21756d9e9db33013eedbca38958869f5190f632e37f0ac6cb8e4bb010b7f039cda957845f6a499a3c1ec41fc6950caf.png">
+          </mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
   </mj-body>
 </mjml>
