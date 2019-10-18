@@ -27,13 +27,19 @@
 
     <mj-section>
       <mj-column>
-        <mj-text color="rgba(255,255,255,0.70)" font-size="15px">Utilizza questo codice per completare l'accesso:</mj-text>
+        <mj-text color="rgba(255,255,255,0.70)" font-size="15px">Copia e incolla questo codice per completare l'accesso:</mj-text>
       </mj-column>
     </mj-section>
 
     <mj-section border-radius="16px" background-color="#1b1b1b">
       <mj-column>
         <mj-text align="center" mj-class="title" padding-top="8px">12345678</mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column>
+        <mj-text color="rgba(255,255,255,0.70)" font-size="12px">Se non sei stato tu a richiedere il codice, semplicemente ignora il messaggio.</mj-text>
       </mj-column>
     </mj-section>
 
